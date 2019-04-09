@@ -18,6 +18,7 @@ and store the credentials for the Identity and Aria azure devops instances.
 
 - [PowerLift](https://office.visualstudio.com/_usersSettings/tokens) 
 1. Press “+ New token” and create a name for your token
+2. Under "Organization" select "office."
 2. Under “Scopes” select “Custom Defined”, hit "See all scopes", check only “Packaging (read)”.
 
 - [AuthenticatorApp](https://msazure.visualstudio.com/One/_git/AD-MFA-phonefactor-phoneApp-android)
