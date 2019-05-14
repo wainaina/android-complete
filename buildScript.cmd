@@ -1,0 +1,3 @@
+gradlew clean :adal:assembleLocal publishAdalPublicationToMavenLocal
+gradlew clean :AADAuthenticator:assembleLocal publishAdAccountsPublicationToMavenLocal
+gradlew clean :msal:build publishMsalPublicationToMavenLocal
