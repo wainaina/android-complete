@@ -13,7 +13,8 @@ rootProject.name = 'android_auth'
 include ':adal', ':msal', ':common', ':AADAuthenticator',
         ':brokerHost', ':adalTestApp', ':msalTestApp', ':package-inspector', ':pop-benchmarker',
         ':labapi', ':keyvault', ':testutils', 'msalautomationapp', 'uiautomationutilities', 'brokerautomationapp',
-        ':oneauth', ':oneauthtestapp', ':msalcpptesthost', ':AzureSample'//, ':tsl', ':AzureSample',
+        ':oneauth', ':oneauthtestapp', ':msalcpptesthost', //':tsl',
+        ':AzureSample'
 project(':adal').projectDir = new File('adal/adal')
 project(':msal').projectDir = new File('msal/msal')
 project(':common').projectDir = new File('common/common')
